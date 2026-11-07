@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "jimbot",
+	"version": "${version}",
+	"name": "JimBot",
+	"description": "VarenXD headless bot bridge: whispers in, JSON queue out.",
+	"authors": [
+		"Jim"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"jim.bot.JimBotClient"
+		]
+	}
+}
